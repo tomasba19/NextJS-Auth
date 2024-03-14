@@ -1,14 +1,16 @@
 
+import Links from './links/Links'
 
 const Navbar = () => {
+
+
   return (
-    <nav>
-      <ul>
-        <li>Home</li>
-        <li>About</li>
-        <li>Contact</li>
-      </ul>
-    </nav>
+    <div>
+        <div>Logo</div>
+        <div>
+            <Links/>
+        </div>
+    </div>
   );
 };
 
