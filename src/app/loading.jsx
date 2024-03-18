@@ -1,4 +1,6 @@
+"use client"
 import React, { useEffect, useState } from "react";
+
 
 const Loading = () => {
   const [loading, setLoading] = useState(true);
