@@ -1,9 +1,13 @@
+import styles from "./Footer.module.css"
 
 const Footer = () => {
   return (
-    <footer>
-      <p>Footer content goes here</p>
-    </footer>
+    <div className={styles.container}>
+      <div className={styles.logo}>Bolvoh</div>
+      <div className={styles.text}>
+      Bolvoh creative thoughts agency © All rights reserved.
+      </div>
+    </div>
   );
 };
 
