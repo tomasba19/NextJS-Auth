@@ -8,6 +8,7 @@ const ContactPage = () => {
         <Image src="/contact.png" alt="contact" fill className={styles.img} />
       </div>
       <div className={styles.formContainer}>
+        <h1 className={styles.formTitle}>Get In Touch</h1>
         <form action="" className={styles.form}>
           <input type="text" placeholder="Name and Surname" />
           <input type="text" placeholder="Email Address" />

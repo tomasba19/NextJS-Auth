@@ -18,6 +18,11 @@
   flex: 1;
 }
 
+.formTitle{
+  font-size: 54px;
+  text-align: center;
+}
+
 .form {
   display: flex;
   flex-direction: column;
@@ -42,4 +47,10 @@
   font-weight: bold;
   border-radius: 5px;
   cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+  }
 }
